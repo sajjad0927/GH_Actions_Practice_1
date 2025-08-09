@@ -2,7 +2,7 @@ name: DeployFirstPractice
 on: push
 jobs:
   JobsFor_Deploy:
-  runs-on: ubuntu-latest  
+  runs-on: ubuntu-latest 
   steps:
     - name: Pull the code
       uses: actions/checkout@v3
