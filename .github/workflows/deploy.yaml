@@ -12,3 +12,7 @@ jobs:
         run: npm run lint
       - name: Run test
         run: npm run test
+      - name: Run build
+        run: npm run build
+      - name: Run reployment
+        run: echo " To be implemented"
