@@ -7,8 +7,8 @@ jobs:
     - name: Pull the code
       uses: actions/checkout@v3
     - name: Install node JS
-      uses: npm ci
+      run: npm ci
     - name: Run Lint
-      uses: npm run lint
+      run: npm run lint
     - name: Run test
-      uses: npm run test
+      run: npm run test
