@@ -1,8 +1,8 @@
 name: DeployFirstPractice
 on: push
 jobs:
-  JobsForDeploy:
-  runs-on: ubuntu-latest 
+  deploy:
+  runs-on: ubuntu-latest
   steps:
     - name: Pull the code
       uses: actions/checkout@v3
