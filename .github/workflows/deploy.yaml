@@ -1,7 +1,7 @@
 name: DeployFirstPractice
 on: push
 jobs:
-  JobsFor_Deploy:
+  JobsForDeploy:
   runs-on: ubuntu-latest 
   steps:
     - name: Pull the code
